@@ -1,0 +1,255 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{./images}}
+\usepackage{hyperref}
+\title{ONLINE ART GALLERY \\ Final Update}
+\date{8 April 2022}
+\author{Abhinav Kumar \\ Roll No : 19111001 }
+\begin{document}
+\maketitle
+\section*{\textbf{Table of Content}}
+\begin{itemize}
+    \item Objective
+ \item Abstract
+ \item Introduction
+ \item Existing Systems
+ \item Proposed System 
+ \item Survey of Technology
+ \item SQL is a Relational Database Management System
+ \item Web Based RDBMS
+ \item Hardware and Software Specification
+ \item Database Structure
+ \item Login table
+ \item SoldArt Table
+ \item Shipping Table
+ \item Contact Table
+ \item Card Type Table
+ \item Add to Cart Table
+\item Modules
+\item Login of the Art Gallery
+\item Registration of the user
+\item Report Generation
+\item Registered Module
+\item Master Module
+\item Shipping Module
+\item Validation of data entered by the user error handling
+\item Reference
+\end{itemize}
+\begin{center}
+   \section*{\textbf{OBJECTIVE}} 
+\end{center}
+The objectives of developing the Art Gellery are as given below: -
+\\
+\begin{itemize}
+    \item To store data of the entire user who are registered in the site.
+    \item To solve the user’s problem in time efficient manner. Helping the user to search different Art with a robust search tools.
+    \item Online updating of all type of Art, updating data using web based interfaces and with the help of buttons and links in an easy and convenient way.
+    \item Data security is maintained to relatively high level by implementing it at Database level, so as to ensure that only authorized users have access to confidential User information.
+    \item Developing a viable candidate system that fulfill the Faster and accurate information retrieval.
+\end{itemize}
+\begin{center}
+   \section*{\textbf{ABSTRACT}} 
+\end{center}
+The main purpose of this term paper, entitled as “Online Art Gallery Management System” is to provide the facility of displays and sell art works of artist irrespective of their nationality, gender and other narrow consideration, through auction. Artist can register online for being a member in the art gallery and each artist can upload the digital copy of their art work under the respective categories. They can host their art work either for auction or for fixed price. The artist is liable to pay a fraction of the price of each art work to the web site to find the running fund for site.Art lovers have to go to the art exhibition to collect their favorite arts or painting.
+\\
+\begin{center}
+   \section*{\textbf{INTRODUCTION}} 
+\end{center}
+Online Art Gallery is an online application, which is used to display and sell art works of artist irrespective of their nationality, gender and other narrow consideration, through auction. Artist can register online for being a member in the art gallery and each artist can upload the digital copy of their art work under the respective categories. They can host their art work either for auction or for fixed price. The artist is liable to pay a fraction of the price of each art work to the web site to find the running fund for site.Art lovers have to go to the art exhibition to collect their favorite arts or painting. But now-a-days they are not getting enough time to go to the galleries and collect the arts and paintings.
+\begin{center}
+   \section*{\textbf{EXISTING SYSTEMS}} 
+\end{center}
+Customer can also register online and they can browse art works that are arranged in different categories scientifically. Each Customer can create their own gallery to see his favorite art works with out much difficult. And each user has the right to purchase an art work using the integrated payment gateway and participate in auction by submitting their bids. Qualified bidder should remit the amount using payment gateway and after each valid payment the art work will be shipped within some days.
+\\
+\\
+\begin{center}
+   \section*{\textbf{PROPOSED SYSTEMS}} 
+\end{center}
+ONLINE ART GALLERY is a web application software and it is very helpful for the art lovers and others who wants to know the addresses where this kind of arts will we sold.
+\\
+\\
+This application helps the end-users to search their arts and paintings and they can place order for the selected pieces. The end-user can also get the information about the art exhibition and the respective address, so, that they can visit to those exhibitions.
+\\
+\\
+Art Gallery brings you an opportunity to view online art exhibitions at our Online Art Gallery  we bring you details of all art exhibitions held in the past and the forthcoming show. The Online Art Gallery is updated daily, so the user can view and buy the latest collection of contemporary art online from any where in the world. You can view and buy the latest Indian contemporary art collection available at their exhibitions and also at their online gallery.
+\\
+\\
+\begin{center}
+   \section*{\underline{\textbf{SURVEY OF TECHNOLOGY}}} 
+\end{center}
+\section*{SERVER SIDE COMPONENT : ACTIVE SERVER PAGES}
+In the world of web-accessible ASP.NET application Active server pages and Servers occupy a central position between enabled clients and application servers. ASP working in the environment of the web container that provides connection and services. By means of these connections, ASP control the presentation of data derived from operations on database to network-connected clients, This client role is suggested in figure - 
+\\
+\\
+HTML,Multimedia XML Objects server presentation Control
+\\
+\\
+\includegraphics{u2.jpeg}
+\begin{center}
+   \section*{\textbf{SQL DATABASE MANAGEMENT SYSTEM}} 
+\end{center}
+Database systems have become ubiquitous across the computing landscape. This is partly because of the basic facilities offered by database management systems: physical data independence, ACID transaction properties, a high-level query language, stored procedures, and triggers. These facilities permits sophisticated applications to ‘push’ much of their complexity into the database itself. The proliferation of database systems in the mobile and embedded market segments is due, in addition to the features above, to the support for two-way database replication and synchronization offered by most commercial database management systems. Data synchronization technology makes it possible for remote users to both access and update corporate data at a remote, off-site location. With local (database) storage, this can be accomplished even when disconnected from the corporate network.
+\\
+\\
+\begin{center}
+   \section*{\textbf{SQL is a Relational DATABASE MANAGEMENT SYSTEM}} 
+\end{center}
+A relational database management system (RDBMS) is a program that lets you create, update, and administer a relational database. Most commercial RDBMS's use the Structured Query Language (SQL) to access the database, although SQL was invented after the development of the relational model and is not necessary for its use.The leading RDBMS products Microsoft's SQL Server. Despite repeated challenges by competing technologies, as well as the claim by some experts that no current RDBMS has fully implemented relational principles, the majority of new corporate databases are still being created and managed with an RDBMS.
+\begin{center}
+   \section*{\textbf{WEB BASED RDBMS}} 
+\end{center}
+A database can be understood as a collection of related files. How those files are related depends on the model used. Early models included the hierarchical model (where files are related in a parent/child manner, with each child file having at most one parent file), and the network model (where files are related as owners and members, similar to the network model except that each member file can have more than one owner).
+\\
+\section*{FUTURE OR RDBMS : }
+\begin{itemize}
+    \item Data are the values stored in the database. On its own, data means very little.
+\item  A database is a collection of tables.
+\item Each table contains records, which are the horizontal rows in the table. These are also called tuples.
+\item Each record contains fields, which are the vertical columns of the table. These are also called attributes.
+\item Fields can be of many different types. There are many standard types, and each DBMS (database management system, such as Oracle or SQL) can also have their own specific types, but generally they fall into at least three kinds - character, numeric and date.
+\item The domain refers to the possible values each field can contain (it's sometimes called a field specification).
+\item An index is a physical mechanism that improves the performance of a database. Indexes are often confused with keys.
+\item A view is a virtual table made up of a subset of the actual tables.
+\end{itemize}
+\begin{center}
+   \section*{\textbf{HARDWARE AND SOFTWARE SPECIFICATION}} 
+\end{center}
+The hardware & software specification and environment specifications used by programmers are : 
+\\
+\section*{HARDWARE : }
+\begin{itemize}
+    \item Computer system: Standard pc/at compatible with Pentium 3 or Pentium 4 CPU or more.
+\item  Primary memory: This Information System works within 1 G.B. if user memory (RAM) addressed by MS windows.
+\item Input device:  Mouse & keyboard compatible with PC/ AT, video adapters and   monitors. It is a colored program so better to use a colored monitor.
+\item Color monitors for best   performance.
+\end{itemize}
+\\
+\section*{SOFTWARE : }
+\begin{itemize}
+    \item  Windows xp or above
+\item  MsSqlSrver 2005
+\item Ms Visual Studio 2008
+\item  Internet explorer 5.0.
+\item The hardware & software specification and environment specifications to run the application.
+\end{itemize}
+\begin{center}
+   \section*{\underline{\textbf{DATABASE STRUCTURE}}} 
+\end{center}
+\\
+\section*{LOGIN TABLE : }
+\\
+\includegraphics[scale=0.3]{u5.jpeg}
+\section*{SoldArt Table : }
+\\
+\\
+\includegraphics[scale=0.35]{s1.png}
+\maketitle
+\section*{Shipping Table : }
+\\
+\includegraphics[scale=0.5]{s2.png}
+\section*{Contact Table : }
+\\
+\includegraphics[scale=0.3]{s3.png}
+\section*{Card Type Table : }
+\\
+\\
+\includegraphics[scale=0.5]{s5.png}
+\section*{Card Type Table : }
+\\
+\\
+\includegraphics[scale=0.5]{s6.png}
+\section*{Card Type Table : }
+\\
+\\
+\includegraphics[scale=0.5]{s5.png}
+\section*{Card Type Table : }
+\\
+\\
+\includegraphics[scale=0.5]{s6.png}
+\section*{Add to Cart Table : }
+\\
+\\
+\includegraphics[scale=0.5]{s7.png}
+\section*{Process Logic : }
+\\
+\\
+\includegraphics[scale=0.3]{s8.png}
+\begin{center}
+    \section*{\textbf{MODULES}} 
+\end{center}
+The project include following main modules:
+\\
+\begin{itemize}
+    \item \textbf{Login of the User and Applicant.}
+\item \textbf{ Registration of user.}
+\item \textbf{Art description.}
+\item \textbf{ User profile information.}
+\item \textbf{The validation master.}
+\item \textbf{Report genaration}
+\item \textbf{Brief description of the all modules.}
+\end{itemize}
+\section*{Login of the Art Gellery -applicant and administrator : }
+This module is considered with login of new user and administrator. Every user must enter his some details about itself for login the home page and after submitted he can Cart and ship Art online. The administrator can also login from this module. He can insert, delete or update the user login name and password.this module check the authenticity of the person accessing the project. The main objective behind this module is to provide security to the project so that access is restricted to the authorized users.
+            Input is taken as login and password that the user Enters.
+            This login id and password sent back to the activeX exe through DLL to check the information in the database.
+            If the login id and password entered by the user matches those of the database file then it will return and redirected to respective control panel, other wise give a Error massage “login denied”.
+\section*{Registration of the user : }
+It takes the information the user and enter it into the database. This module uses the table ‘Documentations for its operation.
+This table has following sub module
+\begin{itemize}
+    \item Add
+\item Edit
+\item Save
+\item Delete
+\end{itemize}
+\\
+\section*{Art Description : }
+It takes the information form the Art and enters it into database. This module user the table ‘Art’ for its operation.
+This table has following sub module.
+\begin{itemize}
+    \item Add
+\item Edit
+\item Update
+\item Delete
+\end{itemize}
+\\
+\section*{Art Info : }
+It takes the information form the user and enters it into database. This module user the table. ‘ Art ’ for its operation
+\section*{Artist Profile Info : }
+It table the information the user enters it into database. This module user the table ‘Arist for its operation.This table user has following sub module:-
+\begin{itemize}
+    \item Add
+\item Update
+\item Delete
+\end{itemize}
+\section*{Validation Master : }
+This module validation the entry made by user if the entry is not as per the specification a wrong message is given.
+\begin{center}
+   \section*{\textbf{REPORT GENERATION}}
+\end{center}
+\begin{itemize}
+    \item How many user are currently wring the site.
+\item How many Artist are are currently wring the site.
+\item How many Art are are currently wring the site.
+\item Report on Purchased Arts.
+\item For Art seeker on the basis of Art search by option.
+\item Search by User Name.
+\item Search by data.
+\item Report of Shipped Records.
+\item Report on the basis of user particulars.
+\item Report of the registered user who have user id and password.
+\end{itemize}
+\\
+\section*{Registered Module : }In this module, User enters a login & password and the software checks its validity. If the login & password is valid then he is allowed to enter, otherwise “Invalid User/Password” message is displayed. Different data access rights are assigned to different users.
+\section*{ Master Module : } This module is used to add and manage user, Art and Artist details etc.
+\section*{ Shipping Module: }In this module, User purchased art and get this art his location by shipping with two option, Online Cash Payment and Cash on delivery.
+\section*{Modifying/Updating Existing Entries : }In this module, whenever an existing entity is required to be modified the corresponding forms are opened and the database is manipulated and the data is fetched. Now the user can made the required changes and then accordingly, he updates the data. Again, the checks are followed in case there is any invalid entry.
+\section*{Searching : }In this module, User can search on the requirement their choice that mean, it (search engine) will help to search in all record/ information of available Art/Artist.
+\section*{ Validation of Data Entered by the User & Error Handling : }In this module, the validity of data entered by the user during the various business processes is checked through various validation checks. For example, there should not be any characters entered in the numeric fields, likewise if there is any error occurs than it should handle that particular error and give the required messages.
+\section*{Reference}
+\url{https://ignoustudentcare.blogspot.com/2020/04/online-art-gallery-management-system.html?m=1}
+\\
+\\
+\textbf{*********************END OF FINAL TERM PAPER*************}
+\end{document}
